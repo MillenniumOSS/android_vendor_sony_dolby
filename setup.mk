@@ -3,7 +3,7 @@ $(call inherit-product, vendor/sony/dolby/dolby-vendor.mk)
 
 # DolbyManager
 PRODUCT_PACKAGES += \
-   DolbyManager
+   LunarisDolby
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += vendor/sony/dolby/sepolicy/vendor
