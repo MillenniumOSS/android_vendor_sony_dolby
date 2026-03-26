@@ -20,3 +20,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Audio configs
 AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 TARGET_EXCLUDES_AUDIOFX := true
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-dolby.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-dolby.xml
